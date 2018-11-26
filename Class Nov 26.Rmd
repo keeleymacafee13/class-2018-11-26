@@ -1,0 +1,24 @@
+---
+title: "Class Nov 26"
+author: "Keeley MacAfee"
+date: "11/26/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+library(readr)
+```
+
+```{r}
+tibble_1 <- read_rds("tibble_1.rds")
+
+tibble_2 <- read_rds("tibble_2.rds")
+```
+
+```{r}
+
+```
+
